@@ -5,35 +5,35 @@ import Image from "next/image";
 import { ModeToggle } from "./mode-toggle";
 
 interface Props {
-    className?: string;
+  className?: string;
 }
 
 export const Header: React.FC<Props> = ({ className }) => {
-    return (
-        <header className={cn("", className)}>
-            <Container className="flex items-center justify-between py-8">
-                <div className="flex items-center gap-4">
-                    {/* <Image
+  return (
+    <header className={cn("", className)}>
+      <Container className="flex items-center justify-between py-8">
+        <div className="flex items-center gap-4">
+          {/* <Image
             src="/logo.png"
             alt="logo"
             width={50}
             height={50}
             className="rounded-full"
           /> */}
-                    {/* <div className="w-[75px] h-[75px] flex items-center justify-center rounded-full select-none font-bold bg-black">
+          {/* <div className="w-[75px] h-[75px] flex items-center justify-center rounded-full select-none font-bold bg-black">
                         <p className="text-2xl uppercase font-black select-none">
                             {"<力/> "}
                         </p>
                     </div> */}
 
-                    <h1 className="text-3xl uppercase font-black select-none">
-                        Chikara IT {"<力/> "}
-                    </h1>
-                </div>
-                <div className="flex items-center gap-3">
-                    <ModeToggle />
-                </div>
-            </Container>
-        </header>
-    );
+          <h1 className="text-3xl uppercase font-black select-none">
+            Chikara IT {"<力/> "}
+          </h1>
+        </div>
+        <div className="flex items-center gap-3">
+          <ModeToggle />
+        </div>
+      </Container>
+    </header>
+  );
 };

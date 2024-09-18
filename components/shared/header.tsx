@@ -1,8 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 import { Container } from "./container";
-import Image from "next/image";
-import { ModeToggle } from "./mode-toggle";
 
 interface Props {
   className?: string;
@@ -29,9 +27,6 @@ export const Header: React.FC<Props> = ({ className }) => {
           <h1 className="text-3xl uppercase font-black select-none">
             Chikara IT {"<力/> "}
           </h1>
-        </div>
-        <div className="flex items-center gap-3">
-          <ModeToggle />
         </div>
       </Container>
     </header>

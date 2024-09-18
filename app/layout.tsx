@@ -17,11 +17,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html
-            lang="en"
-            // className="bg-background"
-            className="bg-paper-pattern bg-cover"
-        >
+        <html lang="en" className="bg-paper-pattern bg-cover">
             <head>
                 <link data-rh="true" rel="icon" href="/logo.png" />
             </head>

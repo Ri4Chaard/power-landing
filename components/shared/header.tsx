@@ -25,7 +25,7 @@ export const Header: React.FC<Props> = ({ className }) => {
                     </div> */}
 
           <h1 className="text-3xl uppercase font-black select-none">
-            Chikara IT круто пздц {"<力/> "}
+            Chikara IT {"<力/> "}
           </h1>
         </div>
       </Container>
